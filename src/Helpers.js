@@ -1,10 +1,6 @@
 export function postDataTidier(data) {
 
-    console.log(data);
-
     const listData = data.data.children;
-
-    console.log(listData);
 
     const Postdata = [];
 

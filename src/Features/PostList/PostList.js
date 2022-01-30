@@ -16,7 +16,7 @@ export default function PostList () {
 
     return (
         <div className = "PostList">
-            {allPosts.map(post => <Post post={post}/>)}
+            {allPosts.map(post => <Post key = {post.id} post={post}/>)}
         </div>
     )
 }
