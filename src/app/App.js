@@ -1,5 +1,4 @@
 import './App.css';
-import { fakeData } from '../Components/fakeData';
 import PostList from '../Features/PostList/PostList';
 
 function App() {
