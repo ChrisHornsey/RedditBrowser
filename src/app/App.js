@@ -1,6 +1,6 @@
 import './App.css';
 import { fakeData } from '../Components/fakeData';
-import PostList from '../Components/PostList';
+import PostList from '../Features/PostList/PostList';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Reddit Browser</h1>
       </header>
-      <PostList posts = {fakeData}/>
+      <PostList/>
 
     </div>
   );

@@ -4,9 +4,10 @@ export default function Post({post}) {
     const {title, body, id} = post;
 
     return (
-        <li key={id} className="Post">
+        <div key={id} className="Post">
+            <h2>{title}</h2>
             <span>{body}</span>
-        </li>
+        </div>
     );
 
 }
