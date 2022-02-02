@@ -8,8 +8,11 @@ export default function Post({post}) {
     return (
         <div className="Post">
             <h2>{title}</h2>
-            <img src = {image ? image : logo}/> 
-            <span>{body}</span>
+            
+            <div className='post_body'>
+                {image ? <img className='thumbnail' src = {image}/> : ""}
+                {body ? <p>{body}</p> : ""}
+                </div>
         </div>
     );
 
