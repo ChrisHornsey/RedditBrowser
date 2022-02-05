@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../media/reddit-logo.png'
 
 
 export default function Post({post}) {
@@ -10,7 +9,7 @@ export default function Post({post}) {
             <h2>{title}</h2>
             
             <div className='post_body'>
-                {image ? <img className='thumbnail' src = {image}/> : ""}
+                {image ? <img className='thumbnail' src = {image} alt = {title}/> : ""}
                 {body ? <p>{body}</p> : ""}
                 </div>
         </div>
